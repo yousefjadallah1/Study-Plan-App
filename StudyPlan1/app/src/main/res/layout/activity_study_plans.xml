@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/b"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".StudyPlans">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Add Plan"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="5dp"
+        />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:layout_marginBottom="70dp"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="7in"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="@color/common_google_signin_btn_text_light_disabled"
+                app:cardCornerRadius="5dp"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Study Plan Name"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:layout_marginTop="60dp"
+                    />
+                <EditText
+                    android:id="@+id/planname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:layout_marginTop="85dp"
+                    android:ems="10"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textColorHint="@color/white"
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course ID"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="1dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Course Name"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="120dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pre_requisite"
+                    android:textSize="20dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="150dp"
+                    android:layout_marginLeft="260dp"
+                    />
+
+                <EditText
+                    android:id="@+id/id1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="180dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                     />
+
+                <EditText
+                    android:id="@+id/name1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="180dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="180dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <EditText
+                    android:id="@+id/id2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="230dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="230dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="230dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <EditText
+                    android:id="@+id/id3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="280dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="280dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="280dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+                <EditText
+                    android:id="@+id/id4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="330dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="330dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="330dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                    />
+                <EditText
+                    android:id="@+id/id5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="380dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="380dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="380dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="430dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="430dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="430dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="480dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="480dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="480dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="530dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="530dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="530dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="580dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="580dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="580dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="630dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="630dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="630dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="680dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="680dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="680dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="730dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="730dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="730dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="780dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="780dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="780dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="830dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="830dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="830dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="880dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="880dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="880dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/id16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="930dp"
+                    android:ems="5"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:hint="ID"
+                    android:textColorHint="@color/white"
+                    />
+
+                <EditText
+                    android:id="@+id/name16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginTop="930dp"
+                    android:ems="5"
+                    android:hint="Name"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+                <EditText
+                    android:id="@+id/pre16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="260dp"
+                    android:layout_marginTop="930dp"
+                    android:ems="5"
+                    android:hint="Pre"
+                    android:inputType="text"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white" />
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/back3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:text="Save"
+        android:textAlignment="center"
+        android:textSize="17dp"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="568dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
